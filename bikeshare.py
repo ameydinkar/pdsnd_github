@@ -17,10 +17,10 @@ def get_filters():
     """
     invalid_inputs = "Invalid input. Please try again" 
     print('Hello! Let\'s explore some US bikeshare data!')
-    # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # TO DO: get user input for city (Chicago, New York City, Washington). HINT: Use a while loop to handle invalid inputs
     
     while True:
-        city = input("\nenter the name of the city to analyze, city names are as follows\nchicago,\nnew york city,\nwashington.                       \n\n").lower()
+        city = input("\nenter the name of the city to analyze, city names are as follows\nchicago,\nnew york city,\nwashington.\n\n").lower()
         try:
             if city in ['chicago', 'new york city', 'washington']:
                 break
@@ -29,7 +29,7 @@ def get_filters():
         except ValueError as e:
             print("Exception occurred: {}".format(e))
             
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # TO DO: get user input for month (All, January, February, ... , June)
     while True:
         month = input("\nenter the name of the month\njanuary,\nfebruary,\nmarch,"
             "\napril,\nmay,\njune\nto filter by, or \"all\" to apply no month filter\n\n").lower()
