@@ -11,7 +11,7 @@ Used Python language to analyze U.S. bikeshare data. Calculate statistics and bu
 .py python file and text file including links referred 
 
 ### Credits
-Referred Site Links-
+Below are the Referred Site Links-
 https://pandas.pydata.org/pandas-docs/stable/
 https://docs.scipy.org/doc/numpy/reference/
 https://docs.python.org/3/library/time.html
