@@ -2,13 +2,13 @@
 05/06/2019
 
 ### Project Title
-Python Bikeshare Project
+Python U.S. Bikeshare Project By Amey
 
 ### Description
 Used Python to understand U.S. bikeshare data. Calculate statistics and build an interactive environment where a user chooses the data and filter for dataset to analyze.
 
 ### Files used
-.py file and text file including links referred 
+.py python file and text file including links referred 
 
 ### Credits
 Referred Site Links-
