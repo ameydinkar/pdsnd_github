@@ -29,7 +29,7 @@ def get_filters():
         except ValueError as e:
             print("Exception occurred: {}".format(e))
             
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # TO DO: get user input for month (All, January, February, ... , June)
     while True:
         month = input("\nenter the name of the month\njanuary,\nfebruary,\nmarch,"
             "\napril,\nmay,\njune\nto filter by, or \"all\" to apply no month filter\n\n").lower()
